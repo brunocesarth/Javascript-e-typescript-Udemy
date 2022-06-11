@@ -51,7 +51,7 @@ console.log(contador3);
 //Operador de atribuição potenciação
 let contador4 = 2;
 contador4 **= 10;
-console.log(contador4)
+console.log(contador4);
 
 //NaN - Not a Number - existe um erro na conta
 const num4= 10;
@@ -75,6 +75,6 @@ console.log(num10 + num11);
 console.log(typeof num11);
 
 const num12 = 10;
-const num13 = Number('5.2');
+const num13 = Number('5.2'); //NUMBER transforma qualquer situação em número, seja inteiro ou float
 console.log(num12 + num13);
 console.log(typeof num13);
