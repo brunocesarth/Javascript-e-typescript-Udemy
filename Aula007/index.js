@@ -14,4 +14,4 @@ resultadoTriplicado = resultadoTriplicado + 5;
 console.log(resultadoTriplicado);
 console.log(primeiroNumero);
 
-console.log(typeof primeiroNumero); //Mostra o tipo da variável
+console.log(typeof primeiroNumero); //typeof Mostra o tipo da variável
