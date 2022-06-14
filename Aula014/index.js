@@ -1,7 +1,7 @@
 let num1 = 1; //number
 let num2 = 2.5; //number
 
-console.log(num1.toString() + num2.toString()); //Transformo temporáriamente o number em string com toString() e faz a concatenação e não a soma
+console.log(num1.toString() + num2.toString()); //Transformo temporariamente o number em string com toString() e faz a concatenação e não a soma
 //num1 = num1.toString(); altera permanentemente o tipo da variável para string
 
 let num3 = 1500;
@@ -17,7 +17,7 @@ console.log(Number.isInteger(num6)); //aqui retorna falso
 
 let temp = num6 * 'Ola';
 console.log(temp); //Retorna um NaN por o resultado não ser um número
-console.log(Number.isNaN(temp));//verifica se a conta é um NaN e retorna verdaeiro ou falso, aqui retorna true porque realmente não é um número
+console.log(Number.isNaN(temp));//verifica se a conta é um NaN e retorna verdadeiro ou falso, aqui retorna true porque realmente não é um número
 
 let num7 = 0.7;
 let num8 = 0.1;
@@ -35,7 +35,7 @@ console.log(Number.isInteger(num7));//mostra que agora é um número inteiro, re
 
 let num9 = 0.7;
 let num10 = 0.1;
-num9 = ((num9 * 100) + (num10 * 100)) / 100; // 0.8 | múltiplica por 100 os números, soma e depois divide por 100 novamente para trazer o resultado correto
+num9 = ((num9 * 100) + (num10 * 100)) / 100; // 0.8 | multiplica por 100 os números, soma e depois divide por 100 novamente para trazer o resultado correto
 num9 = ((num9 * 100) + (num10 * 100)) / 100; // 0.9 
 num9 = ((num9 * 100) + (num10 * 100)) / 100; // 1.0
 console.log(num9);
