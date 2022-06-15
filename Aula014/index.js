@@ -16,8 +16,8 @@ let num6 = 10.25;
 console.log(Number.isInteger(num6)); //aqui retorna falso
 
 let temp = num6 * 'Ola';
-console.log(temp); //Retorna um NaN por o resultado não ser um número
-console.log(Number.isNaN(temp));//verifica se a conta é um NaN e retorna verdadeiro ou falso, aqui retorna true porque realmente não é um número
+console.log(temp); //Retorna um NaN porque o resultado não é um número
+console.log(Number.isNaN(temp)); //verifica se a conta é um NaN e retorna verdadeiro ou falso, aqui retorna true porque realmente não é um número
 
 let num7 = 0.7;
 let num8 = 0.1;
