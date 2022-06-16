@@ -31,7 +31,7 @@ console.log(pessoa2.idade);
 //Criando função para criação de pessoa | Essa função é chamada de factory, ela cria objetos
 function criaPessoa(nome, sobrenome, idade){
     return { nome, sobrenome, idade };
-    /*  Como tenho valores com o mesmo nome não preciso colocar assim, posso colocar só o nome, como mostrado acima
+/*  Como tenho valores com o mesmo nome posso colocar só o nome, como mostrado acima e não usar o abaixo
 **  nome: nome,
 *   sobrenome: sobrenome,
 *   idade: idade 
@@ -66,6 +66,3 @@ pessoa0001.fala(); //Chama o método fala(), dentro do objeto pessoa0001
 pessoa0001.incrementaIdade(); //Chama o método incrementaIdade(), dentro do objeto pessoa0001
 pessoa0001.fala();
 pessoa0001.incrementaIdade();
-pessoa0001.fala();
-pessoa0001.incrementaIdade();
-pessoa0001.fala();
