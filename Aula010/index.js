@@ -1,6 +1,6 @@
 /* 
 **  Aritméticos 
-*   + ADIÇÃO / CONCATENAÇÃ0
+*   + ADIÇÃO / CONCATENAÇÃO
 *   - SUBTRAÇÃO
 *   / DIVISÃO
 *   * MULTIPLICAÇÃO
@@ -58,19 +58,19 @@ const num4= 10;
 const num5 = 'Bruno';
 console.log(num4 * num5);
 
-//Em alguns casos JS soluciona a múltiplicação de uma string em número, com um número
+//Em alguns casos JS soluciona a multiplicação de uma string em número, com um número
 const num6 = 10;
 const num7 = '5';
 console.log(num6 * num7);
 console.log(typeof num7);
 
 const num8 = 10;
-const num9 = parseInt('5'); //PARSEINT ESTÁ CONVERTENDO A STRING PARA NUMBER INTEIRO
+const num9 = parseInt('5'); //parseInt ESTÁ CONVERTENDO A STRING PARA NUMBER INTEIRO
 console.log(num8 + num9);
 console.log(typeof num9);
 
 const num10 = 10;
-const num11 = parseFloat('5.2'); //PARSEFLOAT ESTÁ CONVERTENDO A STRING PARA NUMBER COM CASAS DECIMAIS
+const num11 = parseFloat('5.2'); //parseFloat ESTÁ CONVERTENDO A STRING PARA NUMBER COM CASAS DECIMAIS
 console.log(num10 + num11);
 console.log(typeof num11);
 
