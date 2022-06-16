@@ -35,7 +35,7 @@ delete alunos[1];//Deleto o elemento, mas não altero o índice, então o índic
 
 console.log(alunos[50]);//Consigo acessar um índice que não existe
 
-console.log(alunos)
+console.log(alunos);
 console.log(alunos.slice(0, 3)); //Escolho qual parte do array eu quero pegar, aqui vai do 0 ao 2, mas preciso usar o 3
 
 console.log(alunos.slice(0, -2)); //Ele para a exibição deixando a quantidade de números selecionados
