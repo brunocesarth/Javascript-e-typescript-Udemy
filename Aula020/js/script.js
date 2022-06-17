@@ -11,7 +11,7 @@ function meuEscopo() {
         const sobrenome = form.querySelector('.sobrenome');
         const peso = form.querySelector('.peso');
         const altura = form.querySelector('.altura');
-        
+
         //ADICIONANDO UM OBJETO DENTRO DO ARRAY  
         pessoas.push({
             nome: nome.value,
@@ -23,7 +23,7 @@ function meuEscopo() {
 
         //PREENCHENDO O HTML COM AS INFORMAÇÕES
         resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`;
-    } 
+    }
     form.addEventListener('submit', recebeEventoForm);
 }
 meuEscopo();
