@@ -6,7 +6,7 @@
 */
 const expressaoAnd = true && true && true && true; //Condicional "E" retornando verdadeira porque todas as condições retornam true
 console.log(expressaoAnd);
-const expressaoAnd1 = true && true && true && false; ////Condicional "E" retornando falsa porque não são todas as condições que retornam true
+const expressaoAnd1 = true && true && true && false; //Condicional "E" retornando falsa porque não são todas as condições que retornam true
 console.log(expressaoAnd1);
 
 const expressaoOr = false || true || false || false; //Condicional "OU" retornando true, porque uma das expressões é true
