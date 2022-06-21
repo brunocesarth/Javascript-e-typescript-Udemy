@@ -1,17 +1,12 @@
-function calculaIMC(peso, altura) {
-    return peso / (altura * altura)
+function calculaIMC(x, y) {
+    resultado = x / (y * y);
+    return resultado;
 }
 
-function BuscaInfo() {
-    const form = document.querySelector('.form');
-    const peso = form.querySelector('.Peso');
-    const altura = form.querySelector('.Altura');
-    calculaIMC(peso, altura);
+console.log(resultado);
 
-    function recebeEventoForm(evento) {
-        evento.preventDefault();
-    }
-    form.addEventListener('Submit', recebeEventoForm);
-}
+const peso = document.querySelector('.peso');
+const altura = document.querySelector('.altura');
 
-BuscaInfo();
+const botao = document.querySelector(button);
+botao.onclick = calculaIMC(peso, alutra);
