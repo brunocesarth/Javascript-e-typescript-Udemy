@@ -70,7 +70,3 @@ form button {
 form button:hover {
     background: var(--primary-color-darker);
 }
-
-.mensagem {
-    width: 100%;
-}
