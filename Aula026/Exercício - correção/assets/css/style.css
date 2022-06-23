@@ -27,7 +27,9 @@ body {
     border-radius: 10px;
 }
 
-form input, form label, form button {
+form input,
+form label,
+form button {
     display: block;
     margin-bottom: 10px;
     width: 100%;
@@ -39,7 +41,7 @@ form input {
     padding: 0 20px;
 }
 
-form input:focus{
+form input:focus {
     outline: 1px solid var(--primary-color);
 }
 
@@ -61,4 +63,8 @@ form button:hover {
 .paragrafo-resultado {
     background: rgb(109, 255, 182);
     padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
 }
