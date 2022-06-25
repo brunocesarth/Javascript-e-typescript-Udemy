@@ -30,7 +30,7 @@ function formataData(data4){
     const dia = zeroAEsquerda(data.getDate());
     const mes = zeroAEsquerda(data.getMonth() + 1);
     const ano = zeroAEsquerda(data.getFullYear());
-    const hora =zeroAEsquerda(data.getHours());
+    const hora = zeroAEsquerda(data.getHours());
     const min = zeroAEsquerda(data.getMinutes());
     const seg = zeroAEsquerda(data.getSeconds());
 
@@ -38,5 +38,5 @@ function formataData(data4){
 }
 
 const data4 = new Date();
-const dataBrasil = formataData(data4)
-console.log(dataBrasil)
+const dataBrasil = formataData(data4);
+console.log(dataBrasil);
