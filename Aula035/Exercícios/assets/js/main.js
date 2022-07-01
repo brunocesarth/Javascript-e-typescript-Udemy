@@ -6,8 +6,10 @@ const elementos = [
     {tag: 'section', texto: 'Frase 4'}
 ]
 
-for (let i = 0; i < elementos.length - 3; i++) {
+for (let i = 0; i < elementos.length; i++) {
     const {tag, texto} = elementos[i];
-    let tagger = document.createElement(tag);
-    container.innerHTML += tagger;
+    const criaTag = document.createElement(tag)
+    console.log(criaTag)
+    criaTag.innerHTML += texto;
+    container.appendChild(criaTag)
 }
