@@ -7,7 +7,7 @@ function zeroAEsquerda(num) {
 
 function getDiaSemanaTexto(diaDaSemana) {
     const diasSemana = ['Domingo', 'Segunda-Feira','Terça-Feira','Quarta-Feira','Quinta-Feira','Sexta-Feira', 'Sábado']
-    const diasSemana[diaDaSemana];
+    return diasSemana[diaDaSemana];
 }
 
 function getNomeMes(numeroMes) {
