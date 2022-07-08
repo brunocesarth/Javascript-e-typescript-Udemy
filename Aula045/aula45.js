@@ -43,7 +43,7 @@ try {
     } catch {
         console.log('Deu erro.');
     } finally {
-        console.log('Também sou finally.')
+        console.log('Também sou finally.');
     }
 } catch (e) {
     console.log('Tratando o erro.');
