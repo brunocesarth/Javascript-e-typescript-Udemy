@@ -9,7 +9,7 @@ function mostraHora() {
 }
 
 /* 
-    Aqui a gente cria a funcão para utilizar a função mostra hora, mas não é necessário
+    Aqui a gente cria a função para utilizar a função mostra hora, mas não é necessário
 
     function funcaoDoInterval() {
     console.log(mostraHora());
