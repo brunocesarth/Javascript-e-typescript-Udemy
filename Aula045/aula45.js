@@ -91,5 +91,5 @@ try {
     //Tratar erro
     console.log(e);
 } finally {
-    console.log('Tenha um bom dia.')
+    console.log('Tenha um bom dia.');
 }
