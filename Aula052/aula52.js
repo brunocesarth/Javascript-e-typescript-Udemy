@@ -20,5 +20,5 @@ falaNome1();
 function usaFalaNome1() {
     const nome = 'Ótavio';
     falaNome1();
-} //A função lembra onde ela foi declarada, então não adianta criar a variável nome aqui que ela não será executada
+} //A função lembra onde ela foi declarada,então não adianta criar a variável nome aqui que ela não será executada
 usaFalaNome1();
