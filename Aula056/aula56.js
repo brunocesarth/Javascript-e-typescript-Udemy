@@ -43,7 +43,7 @@ function criaPessoa1(nome, sobrenome, altura, peso) {
 const p1 = criaPessoa1('Luiz', 'Ótavio', 1.8, 80);
 /* console.log(p1.imc()); executando o método */
 const p2 = criaPessoa1('Maria', 'Joaquina', 1.6, 42);
-/* console.log(p2.imc()); executando o 'método */
+/* console.log(p2.imc()); executando o método */
 console.log(p1.fala('falando sobre JS'));
 console.log(p2.fala('falando sobre JS'));
 console.log(p1.nome);//Isso é a mesma coisa que this.nome, se refere ao atributo nome da variável p1
