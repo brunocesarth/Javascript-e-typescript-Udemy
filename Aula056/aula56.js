@@ -24,7 +24,7 @@ function criaPessoa1(nome, sobrenome, altura, peso) {
             this.sobrenome = valor.join(' ');
         },
 
-        fala(assunto = 'falanso sobre NADA.') {
+        fala(assunto = 'falando sobre NADA.') {
             return `${this.nome} está ${assunto}`;//this se refere a pessoa que chamou o que está executando, o this aqui é p1
         },
 
