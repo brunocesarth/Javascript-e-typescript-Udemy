@@ -57,7 +57,7 @@ p1.nomeCompleto = 'Maria Oliveira Silva';
 console.log(p1.nomeCompleto);
 console.log(p1.nome);
 console.log(p1.sobrenome);
-console.log(p1.fala())
+console.log(p1.fala());
 
 const p3 = criaPessoa1('Luiz', 'Ótavio', 1.8, 80);
 const p4 = criaPessoa1('João', 'Ótavio', 1.90, 57);
