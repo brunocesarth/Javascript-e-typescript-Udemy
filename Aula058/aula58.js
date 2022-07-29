@@ -19,7 +19,7 @@ function Pessoa(nome, sobrenome) {
 }
 
 // Criando objeto com a função construtura
-// A variável p1 está recebendo uma nova pessoa com o new Pessoa e passando entre parentes os atributos
+// A variável p1 está recebendo uma nova pessoa com o new Pessoa e passando entre parênteses os atributos
 // A palavra new cria um objeto vazio, e faz o this apontar para esse objeto vazio, e retorna implicitamente o objeto, para a variável, então não precisa de return
 const p1 = new Pessoa('Luiz', 'Ótavio');
 const p2 = new Pessoa('Maria', 'Oliveira');
