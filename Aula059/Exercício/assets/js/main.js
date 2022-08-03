@@ -30,7 +30,7 @@ function Calculadora() {
 
             if (!conta) {
                 alert('Conta inválida');
-                return
+                return;
             }
             this.display.value = conta;
         } catch (e) {
@@ -40,7 +40,7 @@ function Calculadora() {
     };
 
     this.addNumDisplay = el => {
-        this.display.value += el.innerText
+        this.display.value += el.innerText;
         this.display.focus();
     };
     this.clear = el => this.display.value = '';
