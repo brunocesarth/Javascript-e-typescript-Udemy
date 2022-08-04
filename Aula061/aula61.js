@@ -78,4 +78,4 @@ func1();
 console.log("Chamando o yield 2 de dentro da função");
 func2();
 
-//Usar o return nomeio da função, ela vai terminar e não continuar os yields abaixo
+//Usar o return no meio da função, ela vai terminar e não continuar os yields abaixo
