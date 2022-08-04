@@ -13,7 +13,7 @@ const novo = nomes; //Passando por referência, tudo que for feito no novo vai a
 
 novo.pop(); //Aqui retiramos o último valor do array, tanto em nomes quanto em novos
 console.log(`Variável nomes: ${nomes}`);
-console.log(`Variável novos: ${novo}`);
+console.log(`Variável novo: ${novo}`);
 
 console.log('---===+++===---');
 
