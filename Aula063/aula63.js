@@ -1,3 +1,4 @@
+//Método Splice
 //índice          0       1         2          3         4
 const nomes = ['Maria', 'João', 'Eduardo', 'Gabriel', 'Julia'];
 
