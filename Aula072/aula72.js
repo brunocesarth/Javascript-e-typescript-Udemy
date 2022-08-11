@@ -1,7 +1,7 @@
 // Getter e Setters
 // defineProperty -> getter e setters
 // Getters e setters são maneiras de se proteger as propriedades
-//Constructor Function
+// Constructor Function
 function Produto(nome, preco, estoque) {
     this.nome = nome;
     this.preco = preco;
@@ -28,7 +28,6 @@ console.log(p1.estoque);
 /* const p2 = new Produto('Camiseta', 30, 3);
 p2.estoque = 'teste';
 console.log(p2.estoque); */
-
 
 console.log('');
 console.log('');
