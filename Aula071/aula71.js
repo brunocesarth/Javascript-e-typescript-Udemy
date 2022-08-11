@@ -1,5 +1,5 @@
 //Object.defineProperty() e Object.defineProperties()
-//Essa funções são relacionadas com as chaves do objeto
+//Essas funções são relacionadas com as chaves do objeto
 //defineProperty -> define uma propriedade
 //defineProperties -> define mais propriedades
 console.log('Exemplo com defineProperty');
