@@ -30,7 +30,7 @@ console.log(pessoa, pessoa1);
 console.log(pessoa1);
 
 pessoa1.falarNome = function () {
-    return (`${this.nome} está falando seu nome.`)
+    return (`${this.nome} está falando seu nome.`);
 };
 console.log(pessoa1.falarNome());
 
@@ -83,4 +83,4 @@ console.log(p2);
 const p3 = new Pessoa('Maria', 'Miranda');
 Object.freeze(p3); //Posso travar o objeto para que ele não seja alterado
 p3.nome = 'Teste';
-console.log(p3)
+console.log(p3);
