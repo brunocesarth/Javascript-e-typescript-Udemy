@@ -16,7 +16,7 @@ function Pessoa(nome, sobrenome) {
 Pessoa.prototype.estouAqui = 'Hahahaha';//__proto__ igual a prototype
 Pessoa.prototype.nomeCompleto = function () {
     return this.nome + ' ' + this.sobrenome;
-};1
+};
 
 const pessoa1 = new Pessoa('Luiz', 'O.'); // <-- Pessoa = Função construtura
 const pessoa2 = new Pessoa('Maria', 'A.'); // <-- Pessoa = Função construtura
